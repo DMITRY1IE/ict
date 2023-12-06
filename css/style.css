@@ -5,5 +5,42 @@ body{
     background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 6770px;
-   
+    color: white;
+}
+ul{
+    
+    list-style-type: none;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    background-color: black;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo p{
+    margin-left: 10px;
+}
+nav{
+    width: 70%;
+}
+nav ul{
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul li{
+    margin: 10px;
+
 }
