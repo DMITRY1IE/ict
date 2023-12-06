@@ -93,3 +93,9 @@ h1 span{
 .new{
     margin-top: 200px;
 }
+.new-slider{
+    display: flex;
+}
+.slide{
+    display: flex;
+}
