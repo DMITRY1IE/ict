@@ -241,3 +241,8 @@ footer nav ul{
 main{
     margin-bottom: 400px;
 }
+.arrow-up{
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}
