@@ -97,6 +97,7 @@ h1 span{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 .slide{
     display: flex;
@@ -122,9 +123,13 @@ h1 span{
     
     color: #2D45D5;
 }
+.slide-text a:hover{
+    color: white;
+    background-color: #2D45D5;
+}
 .arrow-right{
     margin-left: 50px;
-    margin-right: 150px;
+    
 }
 .arrow-left{
     margin-right: 50px;
@@ -139,4 +144,100 @@ h1 span{
 }
 .arrow:hover{
     background-color: rgba(88, 88, 88, 1);
+}
+.programs{
+    margin-top: 250px;
+    margin-bottom:300px;
+}
+.programs-inner{
+    display: flex;
+    margin-bottom: 80px;
+}
+.programs-inner .item{
+    padding: 20px;
+    border: 1px solid #2D45D5;
+    position: relative;
+    border-radius: 15px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(18, 17, 19, 1);
+    width: 38%;
+    
+}
+.programs-inner .item:hover{
+    background-color: #585858;
+}
+.programs-inner .item a{
+    background-color: rgba(18, 17, 19, 1) !important;
+    border: 1px solid #2D45D5;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+.fuq{
+
+}
+h2{
+    margin-bottom: 50px;
+}
+.items .item h3{
+    margin-top: 0;
+    margin-bottom: 40px;
+}
+.fuq-inner{
+    display: flex;
+    align-items: center;
+}
+.items{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+}
+.items .item{
+    border: 1px solid #2D45D5;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.items .item h3{
+    color: #2D45D5;
+    font-size: 25px;
+}
+footer{
+    background-color: black;
+
+}
+footer .container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+footer nav{
+    width: auto;
+}
+.footer-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-size: 25px;
+}
+.footer-txt a{
+    margin-bottom: 20px;
+}
+footer nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+main{
+    margin-bottom: 400px;
 }
