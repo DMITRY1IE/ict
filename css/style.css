@@ -1,0 +1,9 @@
+body{
+    margin: 0;
+    background-image: url(/img/BG.png);
+    background-color: rgba(18, 17, 19, 1);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 6770px;
+   
+}
