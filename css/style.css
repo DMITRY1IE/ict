@@ -95,7 +95,48 @@ h1 span{
 }
 .new-slider{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .slide{
     display: flex;
+}
+.slide .img{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid #585858;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+.slide .img img{
+    width: 300px;
+    height: 200px;
+}
+.slide-text p{
+    margin-bottom: 80px;
+}
+.slide-text a{
+    border-radius: 15px;
+    padding: 20px 40px;
+    border: 1px solid #2D45D5;
+    
+    color: #2D45D5;
+}
+.arrow-right{
+    margin-left: 50px;
+    margin-right: 150px;
+}
+.arrow-left{
+    margin-right: 50px;
+}
+.arrow{
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    border-radius: 50px;
+    background-color: rgba(32, 32, 32, 0.5);
+    
+}
+.arrow:hover{
+    background-color: rgba(88, 88, 88, 1);
 }
