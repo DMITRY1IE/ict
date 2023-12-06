@@ -4,8 +4,9 @@ body{
     background-color: rgba(18, 17, 19, 1);
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 6770px;
+    height: 5000px;
     color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 ul{
     
@@ -15,9 +16,12 @@ a{
     color: white;
     text-decoration: none;
 }
+p{
+    margin: 0;
+}
 header{
     background-color: black;
-    padding: 20px;
+    padding: 20px 40px;
     
     display: flex;
     justify-content: space-between;
@@ -43,4 +47,36 @@ nav ul{
 nav ul li{
     margin: 10px;
 
+}
+.first{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 0;
+    font-size: 120px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h1 span{
+    position: absolute;
+    right: 50%;
+    top: 40px;
+    font-size: 100px;
+}
+.first p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 30%;
+    margin-bottom: 70px;
+    font-size: 50px;
+    color: #2D45D5;
+}
+.first a{
+    padding: 20px 50px;
+    background-color: #2D45D5;
+    border-radius: 15px;
+    margin-left: 15%;
 }
